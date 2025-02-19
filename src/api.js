@@ -13,7 +13,7 @@ export const USER_SIGNUP_URL = `${API_URL}/user/auth/signup`;
 export const USER_SHOP = `${API_URL}/user/shop`;
 
 export const USER_LOGIN_URL = `${API_URL}/user/auth/login`;
-export const ISLOGOUT_URL = `${API_URL}/user/auth/isLogged`;
+export const ISLOGOUT_URL = `${API_URL}user/auth/isLogged`;
 
 export const SHOP_PRODUCT_ORDERS_URL = (shop_id) => {
   return `${API_URL}/product/order/${shop_id}`;
