@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useState } from "react";
-import axios from "axios";
 import { setUser } from "./store/authSlice";
 import HomePage from "./pages/HomePage";
 import AdminDashboard from "./pages/AdminDashboard";
