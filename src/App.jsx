@@ -14,6 +14,7 @@ import ShopDetails from "./components/Shop/ShopDetails";
 import Login from "./pages/Login";
 import Layout from "./Layout";
 import api, { ISLOGOUT_URL } from "./api";
+import Signup from "./pages/SignUp";
 
 function App() {
   const dispatch = useDispatch();
@@ -55,7 +56,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
-        <Route path="/signup" element={<LandingPage />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route
           path="/customer/shop"
