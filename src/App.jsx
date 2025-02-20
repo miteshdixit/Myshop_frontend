@@ -25,6 +25,8 @@ function App() {
     if (!isAuthenticated) {
       const checkAuth = async () => {
         try {
+          console.log(document.cookie);
+
           const response = await api.get(ISLOGOUT_URL, {
             withCredentials: true,
           });
